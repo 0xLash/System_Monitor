@@ -27,7 +27,7 @@ while True:
     sys_version = os.sys.version
     sys_platform = os.sys.platform
     am_pm_time = datetime.datetime.now().strftime("%I:%M:%S %p")
-    print(f'[{red}+{reset}] System Monitor {white}[{red} v1.0 {reset}-{red} By Hash {white}]{reset}\n')
+    print(f'[{red}+{reset}] System Monitor {white}[{red} v1.1 {reset}-{red} By Hash {white}]{reset}\n')
     print(f'[{red} DEBUG {reset}] Time   {white}[{red}{am_pm_time}{white}]{reset}')
     print(f'[{red} DEBUG {reset}] Date   {white}[{red}{datetime.datetime.now().strftime("%d/%m/%Y")}{white}]{reset}')
     print(f'[{red} DEBUG {reset}] sys    {white}[{red}{sys_platform}{white}]{reset}')
